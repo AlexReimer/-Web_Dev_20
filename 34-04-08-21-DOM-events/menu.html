@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        .main-nav{
+            display: none;
+            border-color: grey;
+            color: white;
+            padding: 30px;
+            list-style: none;
+            width: 200px;
+            height: 100vh;
+        }
+        #show-menu{
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        .wrapper{
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .show{
+            display: block;
+            position: fixed;
+            left: 0;
+            top: 0;
+        }
+
+        .ml-200{
+            margin-left: 300px;
+            transition: all 1s ease;
+        }
+    </style>
+</head>
+<body>
+    <button id="show-menu">Menu</button>
+    <div class="wrapper">
+    <h1>Menu example</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero expedita quis doloribus a delectus voluptatem et culpa. Alias laboriosam praesentium consequatur magni repellendus delectus. Itaque veritatis neque consectetur non eos.</p>
+</div>
+    <ul class="main-nav">
+       <li>Item 1</li>
+       <li>Item 2</li>
+       <li>Item 3</li>
+       <li>Item 4</li>
+       <li>Item 5</li>
+    </ul>
+    <script src="menu.js"></script>
+</body>
+</html>

@@ -1,0 +1,123 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+p{
+margin-top: 10px;
+}
+/* hover - мышкой поверх 
+при наведении на линк он становится красным */
+p.link1 a:hover{
+    color:red;
+    font-size: 120%;
+}
+
+p.link2 a:hover{
+    font-size: 150%;
+}
+
+p.link3 a:hover{
+    background-color: red;
+    color: black;
+}
+/* visited посетили не посетили цвет не меняется */
+p.link4 a:link, p.link4 a:visited{
+    text-decoration: none;
+    color:green;
+}
+
+p.link4 a:active, p.link4:hover{
+    text-decoration: underline;
+}
+
+p.paragraph a:link{
+    color: greenyellow;
+
+}
+
+p.paragraph a:visited{
+    color: indianred;
+}
+
+p.paragraph a:hover{
+    background-color: yellow;
+
+}
+
+p.paragraph a:hover{
+    color: red;
+}
+
+p.paragraph:active{
+    background-color: wheat;
+}
+
+.hidden-item{
+    margin-top: 50px;
+}
+
+.hidden-item p{
+    display: none;
+    background-color: yellow;
+    padding: 20px 0;
+}
+
+.hidden-item:hover p{
+    display: block;
+}
+
+nav{
+    background-color: green;
+    margin-bottom: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    display: inline-block;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 200px;
+}
+
+ul li:hover{
+    background-color: rgba(21, 153, 76, 0.8);
+}
+
+nav ul li ul{
+    position: absolute;
+    display: none;
+    width: 200px;
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+ul li ul li{
+    background-color: rgba(21, 153, 76, 0.8);
+
+}
+
+ul li ul li:hover{
+    background-color: rgba(45, 45, 45, 0.7);
+}
+
+ul li ul li:first-child a{
+color: aqua;
+}
+
+ul li ul li:nth-child(2n):hover{
+    background-color: red;
+}

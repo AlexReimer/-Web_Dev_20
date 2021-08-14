@@ -1,0 +1,9 @@
+.navbar-brand{
+    color: coral !important;
+}
+
+.grey-line{
+    border-bottom: 3px solid rgb(187, 184, 184);
+    margin-top: 30px !important;
+    margin-bottom: 60px !important;
+}

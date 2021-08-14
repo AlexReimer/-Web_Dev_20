@@ -1,0 +1,9 @@
+
+/* универсальный селектор */
+*{
+    font-style: italic;
+}
+
+p {
+    text-align: center !important;
+}
