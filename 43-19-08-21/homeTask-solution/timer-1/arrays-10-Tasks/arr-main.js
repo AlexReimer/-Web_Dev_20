@@ -20,13 +20,17 @@ const users = [
     { name: 'Stepan', age: 30, height: 190 }, 
     { name: 'Boris', age: 45, height: 176 }, 
     { name: 'Masha', age: 32, height: 135 }];
-    
+
 
 
 //создать новый массив юзеров старше 20 лет
 const usersOldest20= users.filter((user) => user.age >20);
 
 const usersN = users.map((user)=> user.age > 20 ? {...user, ststistic:'yes'} : {...user, ststistic:'no'})
+console.log(usersOldest20);
+console.log(usersN);
+console.log(usersOldest20);
+console.log(usersN);
 console.log(usersOldest20);
 console.log(usersN);
 
